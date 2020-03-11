@@ -1,18 +1,23 @@
 # turbo-umbrella
 Repositorio con cada uno de los proyectos durante la clase: Computo distribuido, 2020-2
 
-licencia, información para instalación y ejecución, introducción, metodología, implementación, pruebas, resultados, conclusiones y bibliografía.
+información para instalación y ejecución, introducción, metodología, implementación, pruebas, resultados, conclusiones y bibliografía.
 
-Práctica 1
-Título: Trending Mundial
-Autores:  Javier Navarro Espindola - javojavojavojavo@gmail.com
+## Práctica 1
+## Título: Trending Mundial
+
+## Autores:  Javier Navarro Espindola - javojavojavojavo@gmail.com
           Pablo Francisco Fonseca Márquez - fonseking21@gmail.com
-Definición de proyecto:
-Trending Mundial (Youtube)
+	  
+## Licencia: GNU General Public License v3.0
+
+## Introducción:
 	Consulta videos de Youtube de varios países(por definir) de un tema en particular.
-Objetivos generales:
-El proyecto tiene como objetivo desplegar en una página web el video(mostrando thumbnail y título) más relevante(criterio por definir) de varios países especificando el tema con una palabra clave que el usuario consultará y obtendrá respuesta en tiempo real
+	El proyecto tiene como objetivo desplegar en una página web el video(mostrando thumbnail y título) más relevante(criterio por definir) de varios países especificando el tema con una palabra clave que el usuario consultará y obtendrá respuesta en tiempo real
 Aunque se pueda consultar cualquier palabra o frase en inglés con traducción a los demás idiomas(por definir), la idea es que el usuario consulte un tema relevante mundialmente para que se dé una idea de ćomo se percibe tal tema en los diferentes paises.
+
+## Información para instalación y ejecucón:
+
 Herramientas de software a utilizar:
 Usaremos el API de traducción de google cloud
 API versión 3 de Youtube
