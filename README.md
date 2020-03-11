@@ -6,32 +6,32 @@ información para instalación y ejecución, introducción, metodología, implem
 ## Práctica 1
 ## Título: Trending Mundial
 
-## Autores:  Javier Navarro Espindola - javojavojavojavo@gmail.com
-          Pablo Francisco Fonseca Márquez - fonseking21@gmail.com
+## Autores:  
+	Javier Navarro Espindola - javojavojavojavo@gmail.com
+     	Pablo Francisco Fonseca Márquez - fonseking21@gmail.com
 	  
 ## Licencia: GNU General Public License v3.0
 
 ## Introducción:
-	Consulta videos de Youtube de varios países(por definir) de un tema en particular.
-	El proyecto tiene como objetivo desplegar en una página web el video(mostrando thumbnail y título) más relevante(criterio por definir) de varios países especificando el tema con una palabra clave que el usuario consultará y obtendrá respuesta en tiempo real
-Aunque se pueda consultar cualquier palabra o frase en inglés con traducción a los demás idiomas(por definir), la idea es que el usuario consulte un tema relevante mundialmente para que se dé una idea de ćomo se percibe tal tema en los diferentes paises.
-
-## Información para instalación y ejecucón:
-
-Herramientas de software a utilizar:
+Consulta videos de Youtube de varios países(por definir) de un tema en particular.
+El proyecto tiene como objetivo desplegar en una página web el video(mostrando thumbnail y título) más relevante(criterio por definir) de varios países especificando el tema con una palabra clave que el usuario consultará y obtendrá respuesta en tiempo real, aunque se pueda consultar cualquier palabra o frase en inglés con traducción a los demás idiomas(por definir), la idea es que el usuario consulte un tema relevante mundialmente para que se dé una idea de ćomo se percibe tal tema en los diferentes paises.
+### Herramientas de software a utilizar:
 Usaremos el API de traducción de google cloud
 API versión 3 de Youtube
 mySQL o MariaDB (por definir)
 Python3
 Wordpress o Wix (por definir)
-Arquitectura general del sistema:
-Fuente de datos:
+### Fuente de datos:
 Servicio de traducción de google
 API versión 3 de Youtube
-Sistema de almacenamiento:
+### Sistema de almacenamiento:
 La información por ahora la guardaremos localmente usando mySQL o MariaDB
-Sistema de procesamiento:
+### Sistema de procesamiento:
 Todos los procesos se harán usando python:
+
+## Información para instalación y ejecucón:
+
+
 Lo que planeamos hacer es recibir la palabra consultada (en inglés), y luego iterar la traducción de esa palabra en los idiomas que elegiremos usando el servicio de traducción de Google. Ya con las traducciones, haremos la consulta con el API de Youtube de cada video para cada país en su idioma correspondiente. Obteniendo así el Id de los videos que desplegaremos en la página.
 Página web:
 Usaremos algún servicio como Wix o Wordpress para desplegar los videos
