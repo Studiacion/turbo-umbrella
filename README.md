@@ -45,7 +45,7 @@ Necesitaremos hacer varias cosas para poder recibir información exitosamente de
 	* 3) Download JSON with the private key
 	* 4) Enter: 'set GOOGLE_APPLICATION_CREDENTIALS=[path to the JSON file]' in the terminal
 	* 5) Install Cloud SDK
-	* 6) 
+	* 6) Install python libraries
 
 ## Introducción
 ## Metodología
