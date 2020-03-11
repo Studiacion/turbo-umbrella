@@ -34,10 +34,11 @@ La información por ahora la guardaremos localmente usando mySQL o MariaDB
 Todos los procesos se harán usando python:
 
 ## Información para instalación y ejecucón:
-Necesitaremos hacer varias cosas para poder recibir información exitosamente de google translate Service y de Youtube DATA API v3.
+Necesitaremos hacer varias cosas para poder recibir información exitosamente de Cloud Translation API y de Youtube DATA API v3.
 * Paso 1: Necesitas tener una cuenta de Google
 * Paso 2: Hacer una cuenta en Google Cloud Platform (se necesita ingresar tarjeta de crédito)
-* Paso 3: Activar el Youtube Data API v3
+* Paso 3: Activar el Youtube Data API v3 y guardar la clave API asignada
+* Paso 4: Activar el Cloud Translation API y guardar las claves que te asignen en el formato .JSON
 
 ## Introducción
 ## Metodología
@@ -75,7 +76,7 @@ Translation: el coronavirus es mortal
 Detected source language: en
 
 Ejemplo de adquisición de datos de Youtube Data API v3
-api_key ='AIzaSyA8HRRB6-CPAOs2YZYdU6gUi2aHnWyK-So'
+api_key =
 
 from apiclient.discovery import build
 
