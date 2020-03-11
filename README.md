@@ -39,6 +39,13 @@ Necesitaremos hacer varias cosas para poder recibir información exitosamente de
 * Paso 2: Hacer una cuenta en Google Cloud Platform (se necesita ingresar tarjeta de crédito)
 * Paso 3: Activar el Youtube Data API v3 y guardar la clave API asignada
 * Paso 4: Activar el Cloud Translation API y guardar las claves que te asignen en el formato .JSON
+	* Para poder solicitar de Cloud Translation API
+	* 1) Create a project or select one
+	* 2) Create a service account
+	* 3) Download JSON with the private key
+	* 4) Enter: 'set GOOGLE_APPLICATION_CREDENTIALS=[path to the JSON file]' in the terminal
+	* 5) Install Cloud SDK
+	* 6) 
 
 ## Introducción
 ## Metodología
