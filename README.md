@@ -5,8 +5,8 @@ Repositorio con cada uno de los proyectos durante la clase: Computo distribuido,
 ## Título: Trending Mundial
 
 ## Autores:  
-Javier Navarro Espindola - javojavojavojavo@gmail.com
-Pablo Francisco Fonseca Márquez - fonseking21@gmail.com
+* Javier Navarro Espindola - javojavojavojavo@gmail.com
+* Pablo Francisco Fonseca Márquez - fonseking21@gmail.com
 	  
 ## Licencia: GNU General Public License v3.0
 
