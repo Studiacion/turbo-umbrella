@@ -58,7 +58,7 @@ Successful!
 * request_tran.py
 	* Out:
 		* G9oqvJ3iXGI
-	The code obtained is inserted after ‘v=’ in:  ‘https://www.youtube.com/watch?v=’
+	** The code obtained is inserted after ‘v=’ in:  ‘https://www.youtube.com/watch?v=’
 The obtained URL https://www.youtube.com/watch?v=G9oqvJ3iXGI , which will take us to the first video of searching 'coronavirus' on Youtube.
 		
 ## Bibliography
