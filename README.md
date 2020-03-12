@@ -63,11 +63,11 @@ Necesitaremos hacer varias cosas para poder recibir información exitosamente de
 Succesful!
 ## Results
 * request_you.py
-	Out:	
-Text: coronavirus is deadly
-Translation: el coronavirus es mortal
-Detected source language: en
+	* Out:	
+		* Text: coronavirus is deadly
+		* Translation: el coronavirus es mortal
+		* Detected source language: en
 * request_tran.py
-	Out:
-G9oqvJ3iXGI
+	* Out:
+		* G9oqvJ3iXGI
 ## Conclusiones y bibliografía
