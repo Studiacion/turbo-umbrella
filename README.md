@@ -7,8 +7,8 @@ información para instalación y ejecución, introducción, metodología, implem
 ## Título: Trending Mundial
 
 ## Autores:  
-	Javier Navarro Espindola - javojavojavojavo@gmail.com
-     	Pablo Francisco Fonseca Márquez - fonseking21@gmail.com
+Javier Navarro Espindola - javojavojavojavo@gmail.com
+Pablo Francisco Fonseca Márquez - fonseking21@gmail.com
 	  
 ## Licencia: GNU General Public License v3.0
 
@@ -20,14 +20,14 @@ El proyecto tiene como objetivo desplegar en una página web el video(mostrando 
 Lo que planeamos hacer es recibir la palabra consultada (en inglés), y luego iterar la traducción de esa palabra en los idiomas que elegiremos usando el servicio de traducción de Google. Ya con las traducciones, haremos la consulta con el API de Youtube de cada video para cada país en su idioma correspondiente. Obteniendo así el Id de los videos que desplegaremos en la página.
 
 ### Herramientas de software a utilizar:
-Usaremos el API de traducción de google cloud
-API versión 3 de Youtube
-mySQL o MariaDB (por definir)
-Python3
-Wordpress o Wix (por definir)
+* Usaremos el API de traducción de google cloud
+* API versión 3 de Youtube
+* mySQL o MariaDB (por definir)
+* Python3
+* Wordpress o Wix (por definir)
 ### Fuente de datos:
-Servicio de traducción de google
-API versión 3 de Youtube
+* Servicio de traducción de google
+* API versión 3 de Youtube
 ### Sistema de almacenamiento:
 La información por ahora la guardaremos localmente usando mySQL o MariaDB
 ### Sistema de procesamiento:
@@ -40,12 +40,12 @@ Necesitaremos hacer varias cosas para poder recibir información exitosamente de
 * Paso 3: Activar el Youtube Data API v3 y guardar la clave API asignada
 * Paso 4: Activar el Cloud Translation API y guardar las claves que te asignen en el formato .JSON
 	* Para poder solicitar de Cloud Translation API
-	* 1) Create a project or select one
-	* 2) Create a service account
-	* 3) Download JSON with the private key
-	* 4) Enter: 'set GOOGLE_APPLICATION_CREDENTIALS=[path to the JSON file]' in the terminal
-	* 5) Install Cloud SDK
-	* 6) Install python libraries
+		* Create a project or select one
+		* Create a service account
+		* Download JSON with the private key
+		* Enter: 'set GOOGLE_APPLICATION_CREDENTIALS=[path to the JSON file]' in the terminal
+		* Install Cloud SDK
+		* Install python libraries
 
 ## Introducción
 ## Metodología
