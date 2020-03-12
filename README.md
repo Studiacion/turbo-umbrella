@@ -59,4 +59,13 @@ Succesful!
 * request_tran.py
 	* Out:
 		* G9oqvJ3iXGI
-## Conclusiones y bibliografía
+		
+## Bibliography
+* https://developers.google.com/youtube/v3
+* https://cloud.google.com/products/ai/
+* https://www.youtube.com/watch?v=b_jOJNUD350&list=LLlSrTwtMgwhhCYbsghKnluA&index=8
+
+## Conclusions
+The plan is working for now. Indeed you don't need to know everything to do something.
+
+
