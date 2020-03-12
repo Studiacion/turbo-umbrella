@@ -1,8 +1,6 @@
 # turbo-umbrella
 Repositorio con cada uno de los proyectos durante la clase: Computo distribuido, 2020-2
 
-información para instalación y ejecución, introducción, metodología, implementación, pruebas, resultados, conclusiones y bibliografía.
-
 ## Práctica 1
 ## Título: Trending Mundial
 
@@ -25,11 +23,14 @@ Lo que planeamos hacer es recibir la palabra consultada (en inglés), y luego it
 * mySQL o MariaDB (por definir)
 * Python3
 * Wordpress o Wix (por definir)
+
 ### Fuente de datos:
 * Servicio de traducción de google
 * API versión 3 de Youtube
+
 ### Sistema de almacenamiento:
 La información por ahora la guardaremos localmente usando mySQL o MariaDB
+
 ### Sistema de procesamiento:
 Todos los procesos se harán usando python:
 
@@ -39,21 +40,26 @@ Necesitaremos hacer varias cosas para poder recibir información exitosamente de
 * Paso 2: Hacer una cuenta en Google Cloud Platform (se necesita ingresar tarjeta de crédito)
 * Paso 3: Activar el Youtube Data API v3 y guardar la clave API asignada
 * Paso 4: Activar el Cloud Translation API y guardar las claves que te asignen en el formato .JSON
-	* Para poder solicitar de Cloud Translation API
+	* Setup Cloud Translation API
 		* Create a project or select one
 		* Create a service account
 		* Download JSON with the private key
-		* Enter: 'set GOOGLE_APPLICATION_CREDENTIALS=[path to the JSON file]' in the terminal
+		* Enter: 'set GOOGLE_APPLICATION_CREDENTIALS=[path to the JSON file]' in the terminal you are going to use
 		* Install Cloud SDK
-		* Install python libraries
+		* Install python client library
+	* Setup Youtube Data API v3
+		* Install the Google APIs Client Library for Python
+* Step 5: Write a python script for each service:
+	* Youtube Data API v3 -> request_you.py
+	* Cloud Translation API -> request_tran.py
 
 ## Introducción
+
 ## Metodología
-## Implementación 
+## Implementación
 ## Pruebas
 ## Resultados
 ## Conclusiones y bibliografía
-
 
 
 Página web:
