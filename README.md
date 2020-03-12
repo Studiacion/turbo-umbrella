@@ -1,10 +1,9 @@
 # turbo-umbrella
 Repositorio con cada uno de los proyectos durante la clase: Computo distribuido, 2020-2
 
-## Práctica 1
-## Título:
-Trending Mundial
-
+## Practice 1
+## Title:
+Worldwide Trending
 ## Authors
 * Javier Navarro Espindola - javojavojavojavo@gmail.com
 * Pablo Francisco Fonseca Márquez - fonseking21@gmail.com
@@ -12,36 +11,29 @@ Trending Mundial
 ## License 
 GNU General Public License v3.0
 
-## Introducción
-Consulta videos de Youtube de varios países(por definir) de un tema en particular.
-El proyecto tiene como objetivo desplegar en una página web el video(mostrando thumbnail y título) más relevante(criterio por definir) de varios países especificando el tema con una palabra clave que el usuario consultará y obtendrá respuesta en tiempo real, aunque se pueda consultar cualquier palabra o frase en inglés con traducción a los demás idiomas(por definir), la idea es que el usuario consulte un tema relevante mundialmente para que se dé una idea de ćomo se percibe tal tema en los diferentes paises.
+## Introduction
+Request videos from Youtube of several countries(pending) of a particular topic at once.
+The proyect aims to show the most reelevant video(thumbnail and title) in a single webpage of several countries at once, having the client to specify the keyword or phrase in English. The client will get an answer in real time. Even though th client can query any word or phrase, the goal of this system is to show how an event with worldwide reelevance is viewd by difrent people in different places.
 
-### Objetivos de la práctica 1
-Lo que planeamos hacer es recibir la palabra consultada (en inglés), y luego iterar la traducción de esa palabra en los idiomas que elegiremos usando el servicio de traducción de Google. Ya con las traducciones, haremos la consulta con el API de Youtube de cada video para cada país en su idioma correspondiente. Obteniendo así el Id de los videos que desplegaremos en la página.
+### Practice 1 goals
+What we are trying to acomplish is receiving the queried word and then iterate the translation of that word in the different languages we will choose using the Cloud Translation API. With those results, we will query to the Youtube API for each video, for each country. We will get the videos Ids which we will use to show the videos.
 
-### Herramientas de software a utilizar
-* Usaremos el API de traducción de google cloud
-* API versión 3 de Youtube
-* mySQL o MariaDB (por definir)
-* Python3
-* Wordpress o Wix (por definir)
+### Software tools and services
+* Data sources
+	* Youtube Data API v3
+	* Cloud Translation API
+* Storage
+	* mySQL or MariaDB (pending)
+* Processing system
+	* Python3
+* Wordpress or Wix (pending)
 
-### Fuente de datos
-* Servicio de traducción de google
-* API versión 3 de Youtube
-
-### Sistema de almacenamiento
-La información por ahora la guardaremos localmente usando mySQL o MariaDB
-
-### Sistema de procesamiento
-Todos los procesos se harán usando python
-
-## Información para instalación y ejecucón
-Necesitaremos hacer varias cosas para poder recibir información exitosamente de Cloud Translation API y de Youtube DATA API v3.
-* Paso 1: Necesitas tener una cuenta de Google
-* Paso 2: Hacer una cuenta en Google Cloud Platform (se necesita ingresar tarjeta de crédito)
-* Paso 3: Activar el Youtube Data API v3 y guardar la clave API asignada
-* Paso 4: Activar el Cloud Translation API y guardar las claves que te asignen en el formato .JSON
+## Information needed for installation and execution
+We'll need to follow several steps to be able to receive information succesfuly from both Google services.
+* Step 1: You need a Google Account 
+* Step 2: Open a Google Cloud Platform Account with your google account (you'll need a credit card)
+* Step 3: Enable the Youtube Data API v3 and save assigned API key
+* Step 4: Enable the Cloud Translation API and save the JSON file with the key.
 	* Setup Cloud Translation API
 		* Create a project or select one
 		* Create a service account
@@ -56,7 +48,6 @@ Necesitaremos hacer varias cosas para poder recibir información exitosamente de
 	* Cloud Translation API -> request_tran.py
 
 ## Introducción
-
 ## Metodología
 ## Implementación
 ## Testing
