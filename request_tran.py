@@ -1,4 +1,8 @@
-"""Translates text into the target language.
+"""
+Studiacion/turbo-umbrella is licensed under the
+GNU General Public License v3.0
+
+Translates text into the target language.
 
 Target must be an ISO 639-1 language code.
 See https://g.co/cloud/translate/v2/translate-reference#supported_languages
