@@ -1,5 +1,4 @@
-"""
-Studiacion/turbo-umbrella is licensed under the
+"""Studiacion/turbo-umbrella is licensed under the
 GNU General Public License v3.0
 
 Translates text into the target language.
