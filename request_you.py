@@ -1,3 +1,7 @@
+'''Studiacion/turbo-umbrella is licensed under the
+GNU General Public License v3.0
+'''
+
 api_key =[API_KEY]
 
 from apiclient.discovery import build
