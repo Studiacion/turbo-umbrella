@@ -37,7 +37,7 @@ We'll need to follow several steps to be able to receive information successfull
 	* Setup Cloud Translation API
 		* Create a project or select one
 		* Create a service account
-		* Enter: 'set GOOGLE_APPLICATION_CREDENTIALS=[path to the JSON file]' in the terminal you are going to use
+		* Enter: 'export GOOGLE_APPLICATION_CREDENTIALS=[path to the JSON file]' in the terminal you are going to use
 		* Install Cloud SDK
 		* Install python client library
 	* Setup Youtube Data API v3
