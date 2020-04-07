@@ -28,6 +28,39 @@ What we are trying to accomplish is receiving the queried word and then iterate 
 	* Python3
 * Wordpress or Wix (pending)
 
+## Quickstart (if you already have the credentials)
+Using ubuntu18.4.4  
+Using python 2.7  
+You should have 2 credentials:
+* json file key
+* string key
+
+### Install Cloud SDK
+Add the Cloud SDK distribution URI as a package source:  
+echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] http://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list  
+
+Import the Google Cloud Platform public key:  
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -  
+
+Update the package list and install the Cloud SDK:  
+sudo apt-get update && sudo apt-get install google-cloud-sdk  
+
+### Install Google Cloud Translate Library (python)
+pip install --upgrade google-cloud-translate
+
+### Install the Google Cloud Library (python)
+pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+
+### Run sample code for translation
+Open new terminal  
+Set credentials to the .json file with them:  
+export GOOGLE_APPLICATION_CREDENTIALS = [path to the JSON file]  
+Run sample code for translation.  
+
+### Run Sample code for getting Youtube video code
+Set the variable 'api_key' to the credential(which is a simple string) at the beginning of the code.  
+Run sample code for getting Youtube video code.
+
 ## Information needed for installation and execution
 We'll need to follow several steps to be able to receive information successfully from both Google services.
 * Step 1: You need a Google Account 
