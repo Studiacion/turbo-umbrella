@@ -56,7 +56,7 @@ From terminal: <pre><code>pip install --upgrade google-api-python-client google-
 ### Run sample code for translation
 Open new terminal  
 Set credentials to the .json file with them:  
-From terminal: <pre><code>export GOOGLE_APPLICATION_CREDENTIALS = [path to the JSON file]</code></pre>  
+From terminal: <pre><code>export GOOGLE_APPLICATION_CREDENTIALS=[path to the JSON file]</code></pre>  
 Run sample code for translation.  
 
 ### Run Sample code for getting Youtube video code
