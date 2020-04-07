@@ -47,6 +47,7 @@ Update the package list and install the Cloud SDK:
 
 ### Install Google Cloud Translate Library (python)
 (Install pip if you don't have it)
+Then
 <pre><code>pip install --upgrade google-cloud-translate</code></pre>
 
 ### Install the Google Cloud Library (python)
