@@ -37,19 +37,20 @@ You should have 2 credentials:
 
 ### Install Cloud SDK
 Add the Cloud SDK distribution URI as a package source:  
-echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] http://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list  
+<pre><code>echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] http://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list</code></pre>  
 
 Import the Google Cloud Platform public key:  
-curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -  
+<pre><code>curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -</code></pre>  
 
 Update the package list and install the Cloud SDK:  
-sudo apt-get update && sudo apt-get install google-cloud-sdk  
+<pre><code>sudo apt-get update && sudo apt-get install google-cloud-sdk</code></pre>  
 
 ### Install Google Cloud Translate Library (python)
-pip install --upgrade google-cloud-translate
+(Install pip if you don't have it)
+<pre><code>pip install --upgrade google-cloud-translate</code></pre>
 
 ### Install the Google Cloud Library (python)
-pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
+<pre><code>pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib</code></pre>
 
 ### Run sample code for translation
 Open new terminal  
