@@ -37,26 +37,26 @@ You should have 2 credentials:
 
 ### Install Cloud SDK
 Add the Cloud SDK distribution URI as a package source:  
-<pre><code>echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] http://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list</code></pre>  
+From terminal: <pre><code>echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] http://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list</code></pre>  
 
 Import the Google Cloud Platform public key:  
-<pre><code>curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -</code></pre>  
+From terminal: <pre><code>curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -</code></pre>  
 
 Update the package list and install the Cloud SDK:  
-<pre><code>sudo apt-get update && sudo apt-get install google-cloud-sdk</code></pre>  
+From terminal: <pre><code>sudo apt-get update && sudo apt-get install google-cloud-sdk</code></pre>  
 
 ### Install Google Cloud Translate Library (python)
 (Install pip if you don't have it)          
 Then
-<pre><code>pip install --upgrade google-cloud-translate</code></pre>
+From terminal: <pre><code>pip install --upgrade google-cloud-translate</code></pre>
 
 ### Install the Google Cloud Library (python)
-<pre><code>pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib</code></pre>
+From terminal: <pre><code>pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib</code></pre>
 
 ### Run sample code for translation
 Open new terminal  
 Set credentials to the .json file with them:  
-export GOOGLE_APPLICATION_CREDENTIALS = [path to the JSON file]  
+From terminal: <pre><code>export GOOGLE_APPLICATION_CREDENTIALS = [path to the JSON file]</code></pre>  
 Run sample code for translation.  
 
 ### Run Sample code for getting Youtube video code
