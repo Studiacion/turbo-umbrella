@@ -1,8 +1,11 @@
 '''Studiacion/turbo-umbrella is licensed under the
 GNU General Public License v3.0
 '''
-
-api_key =[API_KEY]
+import json
+with open('llave_2.json') as f:
+  data = json.load(f)
+  
+api_key = data["key"]
 
 from apiclient.discovery import build
 
