@@ -80,13 +80,14 @@ Successful!
 
 ## Results
 * request_you.py
-	* Out:	
-		* Text: coronavirus is deadly
-		* Translation: el coronavirus es mortal
-		* Detected source language: en
+	* Out:	     
+		<pre><code>Text: coronavirus is deadly    
+		Translation: el coronavirus es mortal   
+		Detected source language: en</code></pre>   
 * request_tran.py
-	* Out:
-		* G9oqvJ3iXGI
+	* Out:   
+		<pre><code>Youtube video ID:    
+		G9oqvJ3iXGI</code></pre>   
 	* The code obtained is inserted after ‘v=’ in:  ‘https://www.youtube.com/watch?v=’
 	* The obtained URL https://www.youtube.com/watch?v=G9oqvJ3iXGI , which will take us to the first video of searching 'coronavirus' on Youtube.
 		
