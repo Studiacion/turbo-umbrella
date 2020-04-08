@@ -70,13 +70,7 @@ We'll need to follow several steps to be able to receive information successfull
 * Step 3: Enable the Youtube Data API v3 and save assigned API key
 * Step 4: Enable the Cloud Translation API and save the JSON file with the key.
 	* Setup Cloud Translation API
-		* Create a project or select one
-		* Create a service account
-		* Enter: 'export GOOGLE_APPLICATION_CREDENTIALS=[path to the JSON file]' in the terminal you are going to use
-		* Install Cloud SDK
-		* Install python client library for the translation service API
 	* Setup Youtube Data API v3
-		* Install the Google APIs Client Library for Python
 * Step 5: Write a python script for each service:
 	* Youtube Data API v3 -> request_you.py
 	* Cloud Translation API -> request_tran.py
