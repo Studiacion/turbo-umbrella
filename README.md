@@ -73,7 +73,7 @@ We'll need to follow several steps to be able to receive information successfull
 		* Create a service account
 		* Enter: 'export GOOGLE_APPLICATION_CREDENTIALS=[path to the JSON file]' in the terminal you are going to use
 		* Install Cloud SDK
-		* Install python client library
+		* Install python client library for the translation service API
 	* Setup Youtube Data API v3
 		* Install the Google APIs Client Library for Python
 * Step 5: Write a python script for each service:
