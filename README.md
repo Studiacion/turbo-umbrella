@@ -31,10 +31,9 @@ What we are trying to accomplish is receiving the queried word and then iterate 
 ## Quickstart (if you already have the credentials)
 Using ubuntu18.4.4  
 Using python 2.7  
-You should have 2 credentials:
-* json file key
-* string key
-
+You should have 2 credentials with this specific names in the same directory as the 2 python codes (in this repository) so they run successfully:
+* llave.json
+* llave_2.json
 ### Install Cloud SDK
 Add the Cloud SDK distribution URI as a package source:  
 From terminal: <pre><code>echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] http://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list</code></pre>  
@@ -55,13 +54,13 @@ From terminal: <pre><code>pip install --upgrade google-api-python-client google-
 
 ### Run sample code for translation
 Open new terminal  
+Change directory to the one where you have the codes and credentials  
 Set credentials to the .json file with them:  
-From terminal: <pre><code>export GOOGLE_APPLICATION_CREDENTIALS=[path to the JSON file]</code></pre>  
-Run sample code for translation.  
+From terminal: <pre><code>export GOOGLE_APPLICATION_CREDENTIALS=llave.json</code></pre>  
+Run sample code for translation. (request_tran.py)  
 
 ### Run Sample code for getting Youtube video code
-Set the variable 'api_key' to the credential(which is a simple string) at the beginning of the code.  
-Run sample code for getting Youtube video code.
+Run sample code for getting Youtube video code. (request_you.py)
 
 ## Information needed for installation and execution
 We'll need to follow several steps to be able to receive information successfully from both Google services.
