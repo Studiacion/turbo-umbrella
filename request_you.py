@@ -15,5 +15,6 @@ youtube = build('youtube','v3',developerKey
 
 req = youtube.search().list(q='cats',part='snippet',type='video',maxResults=1)
 res = req.execute()
+print("Youtube video ID:")
 print(res['items'][0]['id']['videoId'])
 
