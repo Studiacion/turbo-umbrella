@@ -31,7 +31,8 @@ What we are trying to accomplish is receiving the queried word and then iterate 
 ## Quickstart (if you already have the credentials)
 Using ubuntu18.4.4  
 Using python 2.7  
-You should have 2 credentials with this specific names in the same directory as the 2 python codes (in this repository) so they run successfully:
+Copy and save both python codes (in this repository) in your system. (request_tran.py and request_you.py)   
+You should have 2 credentials with these specific names in the same directory as the 2 python codes so they run successfully:
 * llave.json
 * llave_2.json
 ### Install Cloud SDK
