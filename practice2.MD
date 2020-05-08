@@ -17,7 +17,7 @@ From terminal: <pre><code>/mnt/d/server/mezzanine_env$ mezzanine-project (nombre
 Si se desea, configurar (zona horaria, idioma, etc).
 From terminal: <pre><code>/mnt/d/server/mezzanine_env/caliz/caliz$ nano settings.py</code></pre>
 
-Crear la base de datos.
+Crear la base de datos (te pedira algunas cosas).
 From terminal: <pre><code>/mnt/d/server/mezzanine_env/caliz$ python manage.py createdb</code></pre>
 From terminal: <pre><code>/mnt/d/server/mezzanine_env/caliz$ python manage.py collecttemplates</code></pre>
 
