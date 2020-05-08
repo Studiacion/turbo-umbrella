@@ -17,8 +17,8 @@ Crear la base de datos estando en: '/mnt/d/server/mezzanine_env/caliz'
 From terminal: <pre><code>python manage.py createdb</code></pre>
 
 Te pedirá las siguientes cosas:
-1)
-<pre><code>A site record is required.
+
+1)<pre><code>A site record is required.
 Please enter the domain and optional port in the format 'domain:port'.
 For example 'localhost:8000' or 'www.example.com'.
 Hit enter to use the default (127.0.0.1:8000): </code></pre>
