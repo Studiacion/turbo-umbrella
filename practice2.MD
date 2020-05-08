@@ -1,6 +1,7 @@
 # Práctica 2
 
 * instalar mezzanine
+
 Crear una carpeta para el servidor.
 From terminal: <pre><code>/mnt/d$ mkdir (nombre del servidor, por ejemplo: server)</code></pre> 
 
