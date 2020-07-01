@@ -39,3 +39,9 @@ www.youtube.com/embed/VMyjxx3y27Y <-- link para embedar
 https://www.youtube.com/watch?v=VMyjxx3y27Y <-- link para ver
 
 ###         EL ID DEL VIDEO ES EL MISMO             ###
+
+------------------------------------------------------------------------------------------------------------------
+
+# PARA USAR PyTrends.py
+se necesita instalar pytrends con:
+pip install pytrends
