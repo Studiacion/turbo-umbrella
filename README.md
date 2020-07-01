@@ -79,12 +79,12 @@ We'll need to follow several steps to be able to receive information successfull
 Successful!
 
 ## Results
-* request_you.py
+* request_tran.py
 	* Out:	     
 		<pre><code>Text: coronavirus is deadly    
 		Translation: el coronavirus es mortal   
 		Detected source language: en</code></pre>   
-* request_tran.py
+* request_you.py
 	* Out:   
 		<pre><code>Youtube video ID:    
 		G9oqvJ3iXGI</code></pre>   
