@@ -1,0 +1,40 @@
+# create virtualenv
+
+# activate it
+source mezzanine.env/bin/activate
+
+# create database
+python manage.py createdb
+
+# change allowed hosts and langualge and timezone in settings.py
+
+# run server
+python manage.py runserver 0.0.0.0:8000
+
+# open server in browser
+
+# the embeded video is in the .db file
+------------------------------------------------------------------------------------------------------------------
+SQLITE3 
+
+.tables
+.schema pages_richtext...
+
+------------------------------------------------------------------------------------------------------------------
+ENABLING CRON
+
+sudo systemctl enable cron
+
+# entering cron
+crontab -e
+
+------------------------------------------------------------------------------------------------------------------
+PRUEBAS YOUTUBE
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VMyjxx3y27Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+www.youtube.com/embed/VMyjxx3y27Y <-- link para embedar
+https://www.youtube.com/watch?v=VMyjxx3y27Y <-- link para ver
+
+###         EL ID DEL VIDEO ES EL MISMO             ###
