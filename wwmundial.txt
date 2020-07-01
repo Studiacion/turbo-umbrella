@@ -11,7 +11,7 @@ python manage.py createdb
 # run server
 python manage.py runserver 0.0.0.0:8000
 
-# open server in browser
+# open server in browser with localhost
 
 # embed youtube video using the easy admin function in local host using browser
 # the embeded video is in the .db file
