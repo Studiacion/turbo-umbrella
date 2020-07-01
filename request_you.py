@@ -13,8 +13,12 @@ youtube = build('youtube','v3',developerKey
                 =api_key)
 #print(type(youtube))
 
-req = youtube.search().list(q='cats',part='snippet',type='video',maxResults=1)
+req = youtube.search().list(q='dogs',part='snippet',type='video',maxResults=1, regionCode = 'US')
 res = req.execute()
 print("Youtube video ID:")
-print(res['items'][0]['id']['videoId'])
+video_ID = res['items'][0]['id']['videoId']
+print(video_ID)
 
+f = open("video_ID.txt", "w")
+f.write(video_ID)
+f.close()
