@@ -42,6 +42,29 @@ https://www.youtube.com/watch?v=VMyjxx3y27Y <-- link para ver
 
 ------------------------------------------------------------------------------------------------------------------
 
+### APIs para COVID19 ###
 # PARA USAR PyTrends.py
 se necesita instalar pytrends con:
 pip install pytrends
+
+# covid19api
+se puede solicitar con python can la librería 'requests', en la documentación vienen ejemplos.
+Documentación: https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest
+
+------------------------------------------------------------------------------------------------------------------
+
+# Paises soportados:
+ (Los 10 países más poblados de América)
+ 1. Estados Unidos
+ 2. Brazil
+ 3. Mexico
+ 4. Colombia
+ 5. Argentina
+ 6. Canada
+ 7. Peru
+ 8. Venezuela
+ 9. Chile
+ 10. Ecuador
+ 
+ -----------------------------------------------------------------------------------------------------------------
+ 
