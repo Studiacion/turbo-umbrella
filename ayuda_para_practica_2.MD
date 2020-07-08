@@ -28,7 +28,7 @@ http://127.0.0.1:8000/
 The software that handles our database is sqlite3     
 You can open the dev.db file with: <code>sqlite3 dev.db</code>    
 <code>.tables</code> --> shows tables on our database      
-<code>.schema pages_richtext...<code> --> shows schema on the selected table    
+<code>.schema [pagename]</code> --> shows schema on the selected table    
 
 ------------------------------------------------------------------------------------------------------------------
 ### NOT CURRENTLY USED ###
