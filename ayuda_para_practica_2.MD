@@ -1,19 +1,20 @@
 # Setting up Mezzanine webpage and working environment
 ## create virtualenv
 documentation: https://virtualenv.pypa.io/  
-pipx install virtualenv   
-virtualenv mezzanine.env   
+<pre><code>pipx install virtualenv</code></pre>   
+<pre><code>virtualenv mezzanine.env</code></pre>   
 
 ## activate it
 source mezzanine.env/bin/activate   
 
 ## create database
-python manage.py createdb    
+<pre><code>python manage.py createdb</code></pre>   
+    
 
 ## change allowed hosts and langualge and timezone in settings.py
 
 ## run server
-python manage.py runserver 0.0.0.0:8000   
+<pre><code>python manage.py runserver 0.0.0.0:8000</code></pre>   
 
 ## open server in browser with localhost
 http://127.0.0.1:8000/  
@@ -24,9 +25,10 @@ http://127.0.0.1:8000/
 ## the embeded video is in the .db file, then with python script you can automate video updates directlly in the database which you should see on the webpage.  
 ------------------------------------------------------------------------------------------------------------------
 ## SQLITE3 
-The software that handles our database   
-.tables --> shows tables on our database    
-.schema pages_richtext... --> shows schema on the selected table    
+The software that handles our database is sqlite3     
+You can open the dev.db file with: <code>sqlite3 dev.db</code>    
+<code>.tables</code> --> shows tables on our database      
+<code>.schema pages_richtext...<code> --> shows schema on the selected table    
 
 ------------------------------------------------------------------------------------------------------------------
 ### NOT CURRENTLY USED ###
