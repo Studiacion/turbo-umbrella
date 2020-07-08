@@ -31,19 +31,17 @@ You can open the dev.db file with: <code>sqlite3 dev.db</code>
 <code>.schema [pagename]</code> --> shows schema on the selected table    
 
 ------------------------------------------------------------------------------------------------------------------
-### NOT CURRENTLY USED ###
+### NOT CURRENTLY USED NOR TESTED###
 ENABLING CRON       
-
-sudo systemctl enable cron     
-
-## entering cron
-crontab -e  
+<pre><code>sudo systemctl enable cron</code></pre>     
+## entering cron   
+<pre><code>crontab -e</code></pre>
 ###                    ###
 ------------------------------------------------------------------------------------------------------------------
 ### APIs para COVID19 ###
 ## PARA USAR PyTrends.py
-se necesita instalar pytrends con:    
-pip install pytrends     
+se necesita instalar pytrends con:
+<pre><code>pip install pytrends</code></pre>
 
 ### covid19api
 se puede solicitar con python can la librería 'requests', en la documentación vienen ejemplos.   
