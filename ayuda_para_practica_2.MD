@@ -5,7 +5,7 @@ documentation: https://virtualenv.pypa.io/
 <pre><code>virtualenv mezzanine.env</code></pre>   
 
 ## activate it
-source mezzanine.env/bin/activate   
+<pre><code>source mezzanine.env/bin/activate</code></pre>    
 
 ## create database
 <pre><code>python manage.py createdb</code></pre>   
