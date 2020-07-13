@@ -56,17 +56,17 @@ Documentación: https://documenter.getpostman.com/view/10808728/SzS8rjbc?version
 ## EXTRA INFO   
 ------------------------------------------------------------------------------------------------------------------
 ## Suported countries:
- (Top 10 most populated countries in America)   
- 1. Estados Unidos
- 2. Brazil
- 3. Mexico
- 4. Colombia
- 5. Argentina
- 6. Canada
- 7. Peru
- 8. Venezuela
- 9. Chile
- 10. Ecuador
+ (Top 10 most populated countries in America and 2 digit code)     
+ 1. Estados Unidos      US    
+ 2. Brazil              BR    
+ 3. Mexico              MX    
+ 4. Colombia            CO    
+ 5. Argentina           AR    
+ 6. Canada              CA     
+ 7. Peru                PE    
+ 8. Venezuela           VE    
+ 9. Chile               CL     
+ 10. Ecuador            EC    
  
 ------------------------------------------------------------------------------------------------------------------
 ## YOUTUBE TESTS
