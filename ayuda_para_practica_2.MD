@@ -15,6 +15,8 @@ documentation: https://virtualenv.pypa.io/
 
 ## run server
 <pre><code>python manage.py runserver 0.0.0.0:8000</code></pre>   
+o     
+<pre><code>python manage.py runserver</code></pre>     
 
 ## open server in browser with localhost
 http://127.0.0.1:8000/  
