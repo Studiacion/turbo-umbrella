@@ -3,12 +3,12 @@ import requests
 import json
 import sqlite3
 
-with open('imgbb.json') as f:
+with open('/home/javier/mezzanine.env/trending/imgbb.json') as f:
   data = json.load(f)
   
 api_key = data["key"]
 
-with open("mexico.png", "rb") as file:
+with open("/home/javier/mezzanine.env/trending/mexico.png", "rb") as file:
     url = "https://api.imgbb.com/1/upload"
     payload = {
         "key": api_key,
@@ -23,7 +23,7 @@ with open("mexico.png", "rb") as file:
     
     '''
     '''
-    conn = sqlite3.connect('dev.db')
+    conn = sqlite3.connect('/home/javier/mezzanine.env/trending/dev.db')
 
     c = conn.cursor()    
     c.execute("UPDATE pages_richtextpage SET content = '<img src={} alt=\"2019-11-19\" border=\"0\">' WHERE page_ptr_id = '9'".format(image_url))

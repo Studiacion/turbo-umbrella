@@ -2,7 +2,7 @@
 GNU General Public License v3.0
 '''
 import json
-with open('llave_2.json') as f:
+with open('/home/javier/mezzanine.env/trending/llave_2.json') as f:
   data = json.load(f)
   
 api_key = data["key"]
@@ -77,6 +77,6 @@ video_ID_EC = res_EC['items'][0]['id']['videoId']
 print(video_ID_EC)
 
 
-f = open("video_ID_live.txt", "w")
+f = open("/home/javier/mezzanine.env/trending/video_ID_live.txt", "w")
 f.write("{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}".format(video_ID_US, video_ID_BR, video_ID_MX, video_ID_AR, video_ID_CO, video_ID_CA, video_ID_PE, video_ID_VE, video_ID_CL,  video_ID_EC))
 f.close()

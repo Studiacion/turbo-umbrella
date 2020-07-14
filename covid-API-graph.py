@@ -6,7 +6,7 @@ fecha = []
 confirmados = []
 
 
-f = open("covid-API.txt", "r")
+f = open("/home/javier/mezzanine.env/trending/covid-API.txt", "r")
 
 
 dia = 0
@@ -61,7 +61,7 @@ ax.xaxis.set_major_locator(xticks)
 plt.grid(b=None, which='major', axis='both')
 plt.title('Casos diarios de COVID19 en México')
 plt.ylabel('casos')
-plt.xlabel('Dias desde el primer caso documentado')
+plt.xlabel('Dias desde el primer caso documentado (2020-01-22)')
 
-plt.savefig('mexico.png')
+plt.savefig('/home/javier/mezzanine.env/trending/mexico.png')
 #plt.show() 

@@ -1,9 +1,9 @@
 import sqlite3
-conn = sqlite3.connect('dev.db')
+conn = sqlite3.connect('/home/javier/mezzanine.env/trending/dev.db')
 
 c = conn.cursor()
 
-f = open("video_ID_live.txt", "r")
+f = open("/home/javier/mezzanine.env/trending/video_ID_live.txt", "r")
 video_ID_US = f.readline()
 video_ID_BR = f.readline()
 video_ID_MX = f.readline()
