@@ -1,7 +1,7 @@
 # Setting up Mezzanine webpage and working environment
 ## create virtualenv
 documentation: https://virtualenv.pypa.io/  
-<pre><code>pipx install virtualenv</code></pre>   
+<pre><code>sudo pipx install virtualenv</code></pre>   
 <pre><code>virtualenv mezzanine.env</code></pre>   
 
 ## activate it
