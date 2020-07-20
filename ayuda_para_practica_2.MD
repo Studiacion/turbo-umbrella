@@ -1,12 +1,14 @@
 # Setting up Mezzanine webpage and working environment
 ## create virtualenv
 documentation: https://virtualenv.pypa.io/  
-<pre><code>sudo pipx install virtualenv</code></pre>   
+<pre><code>sudo pip3 install virtualenv</code></pre>   
 <pre><code>virtualenv mezzanine.env</code></pre>   
 
 ## activate it
 <pre><code>source mezzanine.env/bin/activate</code></pre>    
 
+## install mezzanine
+<pre><code>pip3 install mezzanine</code></pre> 
 ## create database
 <pre><code>python manage.py createdb</code></pre>   
     
