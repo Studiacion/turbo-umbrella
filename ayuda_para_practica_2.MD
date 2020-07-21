@@ -8,7 +8,11 @@ documentation: https://virtualenv.pypa.io/
 <pre><code>source mezzanine.env/bin/activate</code></pre>    
 
 ## install mezzanine
-<pre><code>pip3 install mezzanine</code></pre> 
+<pre><code>pip3 install mezzanine</code></pre>    
+
+## create mezzanine proyect
+<pre><code>mezzanine-project trending</code></pre> 
+
 ## create database
 <pre><code>python manage.py createdb</code></pre>   
     
