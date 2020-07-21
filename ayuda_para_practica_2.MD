@@ -10,7 +10,7 @@ documentation: https://virtualenv.pypa.io/
 ## install mezzanine
 <pre><code>pip3 install mezzanine</code></pre>    
 
-## create mezzanine proyect
+## create mezzanine proyect inside mezzanine.env folder
 <pre><code>mezzanine-project trending</code></pre> 
 
 ## create database
