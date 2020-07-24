@@ -1,20 +1,16 @@
 import requests
 
-response = requests.get('https://api.covid19api.com/total/country/mexico/status/confirmed')
-jsonResponse = response.json()
-for dia in jsonResponse:
-    print(dia['Date'],dia['Cases'])
-    
-#print('\n')
-#print(jsonResponse)
+countries = ['united-states','brazil','mexico','colombia','argentina','canada','peru','venezuela','chile','ecuador']
 
-'''
-url = "https://api.covid19api.com/total/country/mexico/status/confirmed"
 
-payload = {}
-headers= {}
+for country in countries:
+	response = requests.get('https://api.covid19api.com/total/country/{}/status/confirmed'.format(country))
+	jsonResponse = response.json()
 
-response = requests.request("GET", url, headers=headers, data = payload)
+	f = open("{}_data.txt".format(country), "w")
 
-print(response.text.encode('utf8'))
-'''
+	for dia in jsonResponse:
+		record = str(dia['Date'])+' '+str(dia['Cases'])+'\n'
+		f.write(record)
+	
+	f.close()
