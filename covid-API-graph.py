@@ -44,7 +44,7 @@ for country in countries:
     fecha = []
     confirmados = []
     #f = open("/home/javier/mezzanine.env/trending/covid-API.txt", "r")
-    f = open("{}_data.txt".format(country), "r")
+    f = open("/home/javier/mezzanine.env/trending/data/{}_data.txt".format(country), "r")
     dia = 0
     while True: 
         line = f.readline() 
@@ -81,5 +81,4 @@ ax.annotate('Second Lockdown 15th April',
             arrowprops=dict(color='white', 
                             linewidth=0.025)) 
 
-plt.savefig('fig.jpg',quality=96)
-
+plt.savefig('/home/javier/mezzanine.env/trending/fig.jpg',quality=96)

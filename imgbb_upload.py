@@ -8,7 +8,7 @@ with open('/home/javier/mezzanine.env/trending/imgbb.json') as f:
   
 api_key = data["key"]
 
-with open("/home/javier/mezzanine.env/trending/mexico.png", "rb") as file:
+with open("/home/javier/mezzanine.env/trending/fig.jpg", "rb") as file:
     url = "https://api.imgbb.com/1/upload"
     payload = {
         "key": api_key,
