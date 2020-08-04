@@ -13,7 +13,7 @@ youtube = build('youtube','v3',developerKey
                 =api_key)
 #print(type(youtube))
 
-req = youtube.search().list(q = 'poop US', part = 'snippet', type = 'video', eventType = 'completed', maxResults = 1, regionCode = 'US')
+req = youtube.search().list(q = 'coronavirus US', part = 'snippet', type = 'video', eventType = 'completed', maxResults = 1, regionCode = 'US')
 res_US = req.execute()
 
 req = youtube.search().list(q = 'coronavirus brazil', part = 'snippet', type = 'video', eventType = 'completed', maxResults = 1, regionCode = 'BR')
