@@ -3,6 +3,9 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from datetime import datetime
 import dateutil.parser
+import getpass
+username = getpass.getuser()
+
 #f = open("{}_data.txt".format(country), "w")
 
 def total_to_daily(confirmed):
@@ -44,7 +47,7 @@ for country in countries:
     fecha = []
     confirmados = []
     #f = open("/home/javier/mezzanine.env/trending/covid-API.txt", "r")
-    f = open("/home/javier/mezzanine.env/trending/data/{}_data.txt".format(country), "r")
+    f = open("/home/{}/turbo-umbrella/data/{}_data.txt".format(username,country), "r")
     dia = 0
     while True: 
         line = f.readline() 
@@ -81,4 +84,4 @@ ax.annotate('Second Lockdown 15th April',
             arrowprops=dict(color='white', 
                             linewidth=0.025)) 
 
-plt.savefig('/home/javier/mezzanine.env/trending/fig.jpg',quality=96)
+plt.savefig('/home/{}/turbo-umbrella/data/fig.jpg'.format(username),quality=96)

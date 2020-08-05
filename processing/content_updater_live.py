@@ -1,5 +1,7 @@
+import getpass
+username = getpass.getuser()
 
-f = open('/home/javier/mezzanine.env/trending/video_ID_live.txt', 'r')
+f = open('/home/{}/turbo-umbrella/data/video_ID_live.txt'.format(username), 'r')
 video_ID_US = f.readline()
 video_ID_BR = f.readline()
 video_ID_MX = f.readline()
@@ -14,7 +16,7 @@ video_ID_EC = f.readline()
 f.close()
 
 
-f = open("/home/javier/html_v/simplestyle_bluetrees/examples.html", "w")
+f = open("/home/{}/public_html/static/examples.html".format(username), "w")
 
 f.write('<!DOCTYPE HTML>')
 f.write('<html>')

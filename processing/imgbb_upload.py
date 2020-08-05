@@ -1,14 +1,15 @@
 import base64
 import requests
 import json
-import sqlite3
+import getpass
+username = getpass.getuser()
 
-with open('/home/javier/mezzanine.env/trending/imgbb.json') as f:
+with open('/home/{}/turbo-umbrella/credentials/imgbb.json'.format(username)) as f:
   data = json.load(f)
   
 api_key = data["key"]
 
-with open("/home/javier/mezzanine.env/trending/fig.jpg", "rb") as file:
+with open("/home/{}/turbo-umbrella/data/fig.jpg".format(username), "rb") as file:
     url = "https://api.imgbb.com/1/upload"
     payload = {
         "key": api_key,
@@ -22,7 +23,7 @@ with open("/home/javier/mezzanine.env/trending/fig.jpg", "rb") as file:
 
 
 
-    f = open("/home/javier/html_v/simplestyle_bluetrees/another_page.html", "w")   
+    f = open("/home/{}/public_html/static/another_page.html".format(username), "w")   
     
     f.write('<!DOCTYPE HTML>')
     f.write('<html>')
