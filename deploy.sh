@@ -17,7 +17,7 @@ python ~/turbo-umbrella/processing/covid-API-graph.py
 
 python ~/turbo-umbrella/processing/content_updater.py
 python ~/turbo-umbrella/processing/content_updater_live.py
-python ~/turbo-umbrella/processing/imgbb_upload.py
+#python ~/turbo-umbrella/processing/imgbb_upload.py
 
 # Programs that require Youtube API wont work if Youtube's API quota limit for requests has been reached
 
