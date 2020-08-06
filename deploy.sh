@@ -1,5 +1,6 @@
 #!/bin/bash
 
+rm -r ~/public_html/
 mkdir ~/public_html
 cp -r ~/turbo-umbrella/static/ ~/public_html/static
 
