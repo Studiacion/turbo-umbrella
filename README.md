@@ -35,24 +35,10 @@ Using ubuntu18.4.4   (Also tested on Ubuntu20)
 Using python 3
 Put the credetials file along with the others:   
 
-### Install Cloud SDK
-Add the Cloud SDK distribution URI as a package source:  
-From terminal: <pre><code>echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] http://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list</code></pre>  
-
-Import the Google Cloud Platform public key:  
-From terminal: <pre><code>curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -</code></pre>  
-
-Update the package list and install the Cloud SDK:  
-From terminal: <pre><code>sudo apt-get update && sudo apt-get install google-cloud-sdk</code></pre>  
-
-
-### Install the Google Cloud Library (python)
-From terminal: <pre><code>pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib</code></pre>
-
 ### Clone git
 From terminal in /home/user/: <pre><code>git clone https://github.com/Studiacion/turbo-umbrella.git</code></pre>
 
-### Deploy website
+### Deploy website (uncomment lines in files if you don't have YouTube API prerequisites)
 Enter turbo-umbrella folder and run: <pre><code>bash deploy.sh</code></pre>  
 
 ### Setup cron   
