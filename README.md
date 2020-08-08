@@ -38,7 +38,7 @@ Put the credetials file along with the others:
 ### Clone git
 From terminal in /home/user/: <pre><code>git clone https://github.com/Studiacion/turbo-umbrella.git</code></pre>
 
-### Deploy website (uncomment lines in files if you don't have YouTube API prerequisites)
+### Deploy website (uncomment lines in file if you don't have YouTube API prerequisites)
 Enter turbo-umbrella folder and run: <pre><code>bash deploy.sh</code></pre>  
 
 ### Setup cron   
