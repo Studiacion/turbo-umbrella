@@ -1,7 +1,7 @@
 # turbo-umbrella
 ## Practice 2 - (Final)
 ## Title
-Worldwide Trending
+America Trending
 ## Authors
 * Javier Navarro Espindola - javojavojavojavo@gmail.com
 * Pablo Francisco Fonseca Márquez - fonseking21@gmail.com
