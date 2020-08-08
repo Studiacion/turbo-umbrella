@@ -31,9 +31,9 @@ What we are aiming at is to have updated regional videos about COVID-19	news in 
 	* Based html template
 
 ## Quickstart (You must have the credentials)    
-Using ubuntu18.4.4   (Also tested on Ubuntu20)
-Using python 3
-Put the credetials file along with the others:   
+Using ubuntu18.4.4   (Also tested on Ubuntu20)              
+Using python 3                
+Put the credetials file along with the others:                  
 
 ### Clone git
 From terminal in /home/user/: <pre><code>git clone https://github.com/Studiacion/turbo-umbrella.git</code></pre>
