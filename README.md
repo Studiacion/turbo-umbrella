@@ -33,10 +33,12 @@ What we are aiming at is to have updated regional videos about COVID-19	news in 
 ## Quickstart (You must have the credentials)    
 Using ubuntu18.4.4   (Also tested on Ubuntu20)              
 Using python 3                
-Put the credetials file along with the others.                  
 
 ### Clone git
 From terminal in /home/user/: <pre><code>git clone https://github.com/Studiacion/turbo-umbrella.git</code></pre>
+
+### Place credentials
+Place the credetials file along with the others.                  
 
 ### Deploy website (uncomment lines in file if you don't have YouTube API prerequisites)
 Enter turbo-umbrella folder and run: <pre><code>bash deploy.sh</code></pre>  
@@ -60,4 +62,4 @@ Enter the following in the crontab:
 * Indian Pythonista. (2018, September 26). Searching Content using YouTube Data API | Exploring YouTube Data API (Part-2). Retrieved 14 March 2020, from https://www.youtube.com/watch?v=b_jOJNUD350&list=LLlSrTwtMgwhhCYbsghKnluA&index=8
 
 ## Conclusions
-The plan is working for now. Indeed you don't need to know everything to do something.
+
