@@ -45,7 +45,7 @@ Enter turbo-umbrella folder and run: <pre><code>bash deploy.sh</code></pre>
 
 ### Setup cron   
 Enter the following in the crontab (enter crontab using <code>crontab -e</code>):     
-<pre><code>* 9 * * * /bin/bash /home/[user]/turbo-umbrella/processing/main.sh</code></pre>   
+<pre><code>0 9 * * * /bin/bash /home/[user]/turbo-umbrella/processing/main.sh</code></pre>   
 
 
 
