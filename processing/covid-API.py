@@ -1,5 +1,7 @@
 import requests
 import getpass
+import json
+
 username = getpass.getuser()
 
 countries = ['united-states','brazil','mexico','colombia','argentina','canada','peru','venezuela','chile','ecuador']
