@@ -44,8 +44,8 @@ Place the credetials file along with the others.
 Enter turbo-umbrella folder and run: <pre><code>bash deploy.sh</code></pre>  
 
 ### Setup cron   
-Enter the following in the crontab:     
-<pre><code>* 9 * * * PENDING*******</code></pre>  
+Enter the following in the crontab (enter crontab using <code>crontab -e</code>):     
+<pre><code>* 9 * * * /bin/bash /home/[user]/turbo-umbrella/processing/main.sh</code></pre>  
 
 
 
