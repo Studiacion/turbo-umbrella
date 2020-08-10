@@ -60,6 +60,9 @@ Enter the following in the crontab (enter crontab using <code>crontab -e</code>)
 * WordPress.com: Create a Free Website or Blog. (2020). WordPress.com. Retrieved 14 March 2020, from https://wordpress.com/
 * Wix.com: Free Website Builder. (2020). Wix.com. Retrieved 14 March 2020, from https://www.wix.com/
 * Indian Pythonista. (2018, September 26). Searching Content using YouTube Data API | Exploring YouTube Data API (Part-2). Retrieved 14 March 2020, from https://www.youtube.com/watch?v=b_jOJNUD350&list=LLlSrTwtMgwhhCYbsghKnluA&index=8
+* Phantom by HTML5 UP. (2020). Retrieved August 9, 2020, from HTML5 UP website: https://html5up.net/phantom
+* What Is Coronavirus? (2019). Retrieved August 9, 2020, from https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus
 
 ## Conclusions
-
+This proyect was supposed to work for trending streamings and videos from the most populated countries around the world; However, due to global concerned about covid-19, we decided to focus exclusively on that topic.
+Also, because we live in Mexico and we care more about our continent, the searches are from the TOP 10 most populated countries in America.
