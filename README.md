@@ -64,5 +64,5 @@ Enter the following in the crontab (enter crontab using <code>crontab -e</code>)
 * What Is Coronavirus? (2019). Retrieved August 9, 2020, from https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus
 
 ## Conclusions
-This proyect was supposed to work for trending streamings and videos from the most populated countries around the world; However, due to global concerned about covid-19, we decided to focus exclusively on that topic.<br\>
+This proyect was supposed to work for trending streamings and videos from the most populated countries around the world; However, due to global concerned about covid-19, we decided to focus exclusively on that topic.\
 Also, because we live in Mexico and we care more about our continent, the searches are from the TOP 10 most populated countries in America.
