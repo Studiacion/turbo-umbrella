@@ -1,7 +1,7 @@
 import getpass
 username = getpass.getuser()
 
-f = open("/home/{}/turbo-umbrella/data/video_ID.txt".format(username), "r")
+f = open("/home/vdelaluz/git/turbo-umbrella/data/video_ID.txt".format(username), "r")
 video_ID_US = f.readline()
 video_ID_BR = f.readline()
 video_ID_MX = f.readline()
@@ -15,7 +15,7 @@ video_ID_EC = f.readline()
 
 f.close()
 
-f = open("/home/{}/public_html/static/videos.html".format(username), "w")
+f = open("/home/vdelaluz/public_html/gicc/static/cursos/2020-II/turbo-umbrella/videos.html".format(username), "w")
 
 f.write('''
 <!DOCTYPE HTML>

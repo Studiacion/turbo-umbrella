@@ -6,7 +6,7 @@ import getpass
 username = getpass.getuser()
 
 import json
-with open('/home/{}/turbo-umbrella/credentials/llave_2.json'.format(username)) as f:
+with open('/home/vdelaluz/git/turbo-umbrella/credentials/llave_2.json'.format(username)) as f:
   data = json.load(f)
   
 api_key = data["key"]
@@ -81,6 +81,6 @@ video_ID_EC = res_EC['items'][0]['id']['videoId']
 print(video_ID_EC)
 
 
-f = open("/home/{}/turbo-umbrella/data/video_ID_live.txt".format(username), "w")
+f = open("/home/vdelaluz/git/turbo-umbrella/data/video_ID_live.txt".format(username), "w")
 f.write("{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}".format(video_ID_US, video_ID_BR, video_ID_MX, video_ID_AR, video_ID_CO, video_ID_CA, video_ID_PE, video_ID_VE, video_ID_CL,  video_ID_EC))
 f.close()

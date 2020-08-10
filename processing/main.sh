@@ -5,14 +5,18 @@
 
 #source mezzanine.env/bin/activate    #NOT USING MEZZANINE WITH THIS BRANCH!
 
-python3 ~/turbo-umbrella/processing/covid-API.py
-
-python3 ~/turbo-umbrella/processing/request_you.py
-python3 ~/turbo-umbrella/processing/request_you_live.py
-python3 ~/turbo-umbrella/processing/covid-API-graph.py
-
-python3 ~/turbo-umbrella/processing/content_updater.py
-python3 ~/turbo-umbrella/processing/content_updater_live.py
-python3 ~/turbo-umbrella/processing/imgbb_upload.py
+/usr/bin/python3 /home/vdelaluz/git/turbo-umbrella/processing/covid-API.py
+sleep 2
+/usr/bin/python3 /home/vdelaluz/git/turbo-umbrella/processing/request_you.py
+sleep 2
+/usr/bin/python3 /home/vdelaluz/git/turbo-umbrella/processing/request_you_live.py
+sleep 2
+/usr/bin/python3 /home/vdelaluz/git/turbo-umbrella/processing/covid-API-graph.py
+sleep 2
+/usr/bin/python3 /home/vdelaluz/git/turbo-umbrella/processing/content_updater.py
+sleep 2
+/usr/bin/python3 /home/vdelaluz/git/turbo-umbrella/processing/content_updater_live.py
+sleep 2
+/usr/bin/python3 /home/vdelaluz/git/turbo-umbrella/processing/imgbb_upload.py
 
 # Programs that require Youtube API wont work if Youtube's API quota limit for requests has been reached

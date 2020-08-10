@@ -5,7 +5,7 @@ import getpass
 username = getpass.getuser()
 
 import json
-with open('/home/{}/turbo-umbrella/credentials/llave_2.json'.format(username)) as f:
+with open('/home/vdelaluz/git/turbo-umbrella/credentials/llave_2.json'.format(username)) as f:
   data = json.load(f)
   
 api_key = data["key"]
@@ -16,34 +16,34 @@ youtube = build('youtube','v3',developerKey
                 =api_key)
 #print(type(youtube))
 
-req = youtube.search().list(q = 'coronavirus US', part = 'snippet', type = 'video', eventType = 'completed', maxResults = 1, regionCode = 'US')
+req = youtube.search().list(q = 'Trump', part = 'snippet', type = 'video', eventType = 'completed', maxResults = 1, regionCode = 'US')
 res_US = req.execute()
 
-req = youtube.search().list(q = 'coronavirus brazil', part = 'snippet', type = 'video', eventType = 'completed', maxResults = 1, regionCode = 'BR')
+req = youtube.search().list(q = 'Trump', part = 'snippet', type = 'video', eventType = 'completed', maxResults = 1, regionCode = 'BR')
 res_BR = req.execute()
 
-req = youtube.search().list(q = 'coronavirus mexico', part = 'snippet', type = 'video', eventType = 'completed', maxResults = 1, regionCode = 'MX')
+req = youtube.search().list(q = 'Trump', part = 'snippet', type = 'video', eventType = 'completed', maxResults = 1, regionCode = 'MX')
 res_MX = req.execute()
 
-req = youtube.search().list(q = 'coronavirus colombia', part = 'snippet', type = 'video', eventType = 'completed', maxResults = 1, regionCode = 'CO')
+req = youtube.search().list(q = 'Trump', part = 'snippet', type = 'video', eventType = 'completed', maxResults = 1, regionCode = 'CO')
 res_CO = req.execute()
 
-req = youtube.search().list(q = 'coronavirus argentina', part = 'snippet', type = 'video', eventType = 'completed', maxResults = 1, regionCode = 'AR')
+req = youtube.search().list(q = 'Trump', part = 'snippet', type = 'video', eventType = 'completed', maxResults = 1, regionCode = 'AR')
 res_AR = req.execute()
 
-req = youtube.search().list(q = 'coronavirus canada', part = 'snippet', type = 'video', eventType = 'completed', maxResults = 1, regionCode = 'CA')
+req = youtube.search().list(q = 'Trump', part = 'snippet', type = 'video', eventType = 'completed', maxResults = 1, regionCode = 'CA')
 res_CA = req.execute()
 
-req = youtube.search().list(q = 'coronavirus peru', part = 'snippet', type = 'video', eventType = 'completed', maxResults = 1, regionCode = 'PE')
+req = youtube.search().list(q = 'Trump', part = 'snippet', type = 'video', eventType = 'completed', maxResults = 1, regionCode = 'PE')
 res_PE = req.execute()
 
-req = youtube.search().list(q = 'coronavirus venezuela', part = 'snippet', type = 'video', eventType = 'completed', maxResults = 1, regionCode = 'VE')
+req = youtube.search().list(q = 'Trump', part = 'snippet', type = 'video', eventType = 'completed', maxResults = 1, regionCode = 'VE')
 res_VE = req.execute()
 
-req = youtube.search().list(q = 'coronavirus chile', part = 'snippet', type = 'video', eventType = 'completed', maxResults = 1, regionCode = 'CL')
+req = youtube.search().list(q = 'Trump', part = 'snippet', type = 'video', eventType = 'completed', maxResults = 1, regionCode = 'CL')
 res_CL = req.execute()
 
-req = youtube.search().list(q = 'coronavirus ecuador', part = 'snippet', type = 'video', eventType = 'completed', maxResults = 1, regionCode = 'EC')
+req = youtube.search().list(q = 'Trump', part = 'snippet', type = 'video', eventType = 'completed', maxResults = 1, regionCode = 'EC')
 res_EC = req.execute()
 
 
@@ -80,6 +80,6 @@ video_ID_EC = res_EC['items'][0]['id']['videoId']
 print(video_ID_EC)
 
 
-f = open("/home/{}/turbo-umbrella/data/video_ID.txt".format(username), "w")
+f = open("/home/vdelaluz/git/turbo-umbrella/data/video_ID.txt".format(username), "w")
 f.write("{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}".format(video_ID_US, video_ID_BR, video_ID_MX, video_ID_AR, video_ID_CO, video_ID_CA, video_ID_PE, video_ID_VE, video_ID_CL,  video_ID_EC))
 f.close()

@@ -6,31 +6,31 @@ username = getpass.getuser()
 
 ### Uncomment if you want to store images in the cloud, also change the path of the image to 'image_url'
 
-with open('/home/{}/turbo-umbrella/credentials/imgbb.json'.format(username)) as f:
-  data = json.load(f)
-  
-api_key = data["key"]
-
-with open("/home/{}/turbo-umbrella/data/fig.jpg".format(username), "rb") as file:
-    url = "https://api.imgbb.com/1/upload"
-    payload = {
-        "key": api_key,
-        "image": base64.b64encode(file.read()),
-        "expiration": '172800', #2 days
-    }
-    res = requests.post(url, payload)
-    contents = json.loads(res.text)
-    image_url = contents['data']['url']
-    print('Image URL:')
-    print (image_url)
-
+##with open('/home/vdelaluz/git/turbo-umbrella/credentials/imgbb.json'.format(username)) as f:
+##  data = json.load(f)
+##  
+##api_key = data["key"]
+##
+##with open("/home/vdelaluz/git/turbo-umbrella/data/fig.jpg".format(username), "rb") as file:
+##    url = "https://api.imgbb.com/1/upload"
+##    payload = {
+##        "key": api_key,
+##        "image": base64.b64encode(file.read()),
+##        "expiration": '172800', #2 days
+##    }
+##    res = requests.post(url, payload)
+##    contents = json.loads(res.text)
+##    image_url = contents['data']['url']
+##    print('Image URL:')
+##    print (image_url)
+##
 
 #if uncommented move all of below one tab -->
 
-    f = open("/home/{}/public_html/static/graphics.html".format(username), "w")   
+f = open("/home/vdelaluz/public_html/gicc/static/cursos/2020-II/turbo-umbrella/graphics.html", "w")   
 
 
-    f.write('''
+f.write('''
     <!DOCTYPE HTML>
     <!--
         Phantom by HTML5 UP
@@ -93,7 +93,7 @@ with open("/home/{}/turbo-umbrella/data/fig.jpg".format(username), "rb") as file
 
                             <div class="inner">
                                 <!-- <span class="image main"><img src="images/pic13.jpg" alt="" /></span> -->
-                                <img src={} alt=\"2019-11-19\" border=\"0\">
+                                <img src=\"fig.jpg\" alt=\"2019-11-19\" border=\"0\">
                         </div>
 
                     <!-- Footer -->
@@ -135,6 +135,7 @@ with open("/home/{}/turbo-umbrella/data/fig.jpg".format(username), "rb") as file
 
         </body>
     </html>
-    '''.format(image_url))
+''')
+#.format(image_url))
 
-    f.close()
+f.close()
