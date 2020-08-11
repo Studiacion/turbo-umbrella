@@ -1,7 +1,8 @@
 # turbo-umbrella
 Repositorio con cada uno de los proyectos durante la clase: Computo distribuido, 2020-2
 
-## Practice 2 - (Final)
+## Proyect
+What we are aiming at is to have updated regional videos about COVID-19	news in a webpage. Also to have a graph showing the curves of new cases in each of those countries. The updates will happen everyday and the countries will be the 10 most populated countries in America.
 ## Title
 Worldwide Trending
 ## Authors
@@ -10,10 +11,6 @@ Worldwide Trending
 	  
 ## License 
 GNU General Public License v3.0
-
-
-### Practice 2 goals
-What we are aiming at is to have updated regional videos about COVID-19	news in a webpage. Also to have a graph showing the curves of new cases in each of those countries. The updates will happen everyday and the countries will be the 10 most populated countries in America.
 
 ### Software tools and services
 * Data sources
