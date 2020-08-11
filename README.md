@@ -37,12 +37,12 @@ From terminal in /home/user/: <pre><code>git clone https://github.com/Studiacion
 ### Place credentials
 Place the credetials file along with the others.                  
 
-### Deploy website (uncomment lines in file if you don't have YouTube API prerequisites)
-Enter turbo-umbrella folder and run: <pre><code>bash deploy.sh</code></pre>  
-
 ### Setup cron   
 Enter the following in the crontab (enter crontab using <code>crontab -e</code>):     
-<pre><code>0 9 * * * /bin/bash /home/[user]/turbo-umbrella/processing/main.sh</code></pre>   
+<pre><code>0 9 * * * /bin/bash /home/[user]/turbo-umbrella/processing/main.sh</code></pre>
+
+### Deploy website (uncomment lines in file if you don't have YouTube API prerequisites)
+Enter turbo-umbrella folder and run: <pre><code>bash deploy.sh</code></pre>     
 
 
 
