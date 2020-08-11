@@ -42,7 +42,7 @@ f.write('''
 
 							<!-- Logo -->
 								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/logo.png" alt="" /></span><span class="title">Studiacion</span>
+									<span class="symbol"><img src="images/UNAM.svg.png" alt="" /></span><span class="title">Studiacion</span>
 								</a>
 
 							<!-- Nav -->
