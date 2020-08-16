@@ -1,9 +1,9 @@
 # turbo-umbrella - Trending America      
-What we are aiming at is to have updated regional videos about COVID-19	news in a webpage. Also to have a graph showing the curves of new cases in each of those countries. The updates will happen everyday and the countries will be the 10 most populated countries in America.
+What we are aiming at is to have updated regional videos about COVID-19	news in a webpage. Also to have a graph showing the curves of new cases in each of those countries. The updates will happen every 6 hours and the countries will be the 10 most populated countries in America.
 
 ## Authors
-* Javier Navarro Espindola - javojavojavojavo@gmail.com
-* Pablo Francisco Fonseca Márquez - fonseking21@gmail.com
+* Javier Navarro - javojavojavojavo@gmail.com
+* Francisco Fonseca - fonseking21@gmail.com
 	  
 ## License 
 GNU General Public License v3.0
@@ -30,11 +30,15 @@ Using python 3
 From terminal in /home/user/: <pre><code>git clone https://github.com/Studiacion/turbo-umbrella.git</code></pre>
 
 ### Setup cron   
-Enter the following in the crontab (enter crontab using <code>crontab -e</code>):     
-<pre><code>0 9 * * * /bin/bash /[yourPATH]/turbo-umbrella/processing/main.sh</code></pre>
+Enter the following in the crontab so that the application updates its data every 6 hours (enter crontab using <code>crontab -e</code>):     
+<pre><code>0 */6 * * * /bin/bash /[yourPATH]/turbo-umbrella/processing/main.sh</code></pre>
+
+### Move 'static' folder
+Move to the public path where the application is going to be. For example: <code>mv /home/user/turbo-umbrella/static/* /home/user/public_html/static/
+</code>
 
 ### Configure 'conf.ini'
-Open file in your text editor and write the public path where the proyect is going to be.   
+Open file in your text editor and write the public path where the application is going to be.   
 
 ### Place credentials
 Place the credetials file along with the others.                  
@@ -43,8 +47,8 @@ Place the credetials file along with the others.
 ### Deploy website
 Enter turbo-umbrella folder and run: <pre><code>bash deploy.sh</code></pre>     
 
-
-
+### Looks of the application
+![](https://i.ibb.co/wMGmbq6/2020-08-16.png)
 
 		
 ## Bibliography
