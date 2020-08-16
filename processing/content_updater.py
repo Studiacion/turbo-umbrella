@@ -2,6 +2,9 @@ import os
 script_path = os.path.realpath(__file__) 
 directory_path = script_path.replace("/processing/content_updater.py", "")
 
+import datetime  
+update_time = 'Update date and time: '+str(datetime.datetime.now(datetime.timezone.utc))+ ' GMT'
+
 
 f = open("{}/data/video_ID.txt".format(directory_path), "r")
 video_ID_US = f.readline()
@@ -81,6 +84,7 @@ f.write('''
 							<!-- <span class="image main"><img src="images/pic13.jpg" alt="" /></span> -->
 						</div>
 						<hr />
+					<p style="text-align:center;">{}</p>
 
 						<div class="inner">
 							<span class="image left"><img src="images/mexico.jpg" alt="" /></span><h2 style="font-size:35px">Mexico</h2>
@@ -182,7 +186,7 @@ f.write('''
 
 	</body>
 </html>
-'''.format(video_ID_MX, video_ID_US, video_ID_BR, video_ID_CA, video_ID_AR, video_ID_CL, video_ID_CO, video_ID_EC, video_ID_PE, video_ID_VE))
+'''.format(update_time,video_ID_MX, video_ID_US, video_ID_BR, video_ID_CA, video_ID_AR, video_ID_CL, video_ID_CO, video_ID_EC, video_ID_PE, video_ID_VE))
 
 
 

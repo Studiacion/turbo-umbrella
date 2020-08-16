@@ -5,6 +5,9 @@ import os
 script_path = os.path.realpath(__file__) 
 directory_path = script_path.replace("/processing/imgbb_upload.py", "")
 
+import datetime  
+update_time = 'Update date and time: '+str(datetime.datetime.now(datetime.timezone.utc))+ ' GMT'
+
 ### Uncomment if you want to store images in the cloud, also change the path of the image to 'image_url'
 
 ##with open('/home/vdelaluz/git/turbo-umbrella/credentials/imgbb.json'.format(username)) as f:
@@ -95,7 +98,9 @@ f.write('''
 
                             <div class="inner">
                                 <!-- <span class="image main"><img src="images/pic13.jpg" alt="" /></span> -->
+                                <p style="text-align:center;">{}</p>
                                 <img src="fig.jpg" style="max-width:100%;" alt="2019-11-19" border="0">
+                                
                         </div>
 
                     <!-- Footer -->
@@ -137,7 +142,7 @@ f.write('''
 
         </body>
     </html>
-''')
+'''.format(update_time))
 #.format(image_url))
 
 f.close()
