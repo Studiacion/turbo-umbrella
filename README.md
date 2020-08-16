@@ -34,7 +34,7 @@ Enter the following in the crontab (enter crontab using <code>crontab -e</code>)
 <pre><code>0 9 * * * /bin/bash /[yourPATH]/turbo-umbrella/processing/main.sh</code></pre>
 
 ### Configure 'conf.ini'
-Open file in an editor and edit the public path where the proyect is going to be.   
+Open file in your text editor and write the public path where the proyect is going to be.   
 
 ### Place credentials
 Place the credetials file along with the others.                  
