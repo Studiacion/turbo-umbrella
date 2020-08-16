@@ -1,8 +1,9 @@
 import base64
 import requests
 import json
-import getpass
-username = getpass.getuser()
+import os   
+script_path = os.path.realpath(__file__) 
+directory_path = script_path.replace("/processing/imgbb_upload.py", "")
 
 ### Uncomment if you want to store images in the cloud, also change the path of the image to 'image_url'
 
@@ -27,7 +28,12 @@ username = getpass.getuser()
 
 #if uncommented move all of below one tab -->
 
-f = open("/home/vdelaluz/public_html/gicc/static/cursos/2020-II/turbo-umbrella/graphics.html", "w")   
+import configparser
+config = configparser.ConfigParser()
+config.read('{}/conf.ini'.format(directory_path))
+static_directory = config['PATHS']['PublicHTMLAplicationPart']
+
+f = open("{}/graphics.html".format(static_directory), "w")   
 
 
 f.write('''

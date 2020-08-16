@@ -1,7 +1,8 @@
-import getpass
-username = getpass.getuser()
+import os   
+script_path = os.path.realpath(__file__) 
+directory_path = script_path.replace("/processing/content_updater_live.py", "")
 
-f = open('/home/vdelaluz/git/turbo-umbrella/data/video_ID_live.txt'.format(username), 'r')
+f = open('{}/data/video_ID_live.txt'.format(directory_path), 'r')
 video_ID_US = f.readline()
 video_ID_BR = f.readline()
 video_ID_MX = f.readline()
@@ -15,8 +16,12 @@ video_ID_EC = f.readline()
 
 f.close()
 
+import configparser
+config = configparser.ConfigParser()
+config.read('{}/conf.ini'.format(directory_path))
+static_directory = config['PATHS']['PublicHTMLAplicationPart']
 
-f = open("/home/vdelaluz/public_html/gicc/static/cursos/2020-II/turbo-umbrella/lives.html".format(username), "w")
+f = open("{}/lives.html".format(static_directory), "w")
 
 f.write('''
 <!DOCTYPE HTML>

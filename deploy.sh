@@ -12,26 +12,31 @@ pip3 install --upgrade google-api-python-client google-auth-httplib2 google-auth
 #finished 
 
 
+# copy static directory to the public space where it will be uploaded
+#rm -r ~/public_html/
+#mkdir ~/public_html
+#cp -r ~/turbo-umbrella/static/ ~/public_html/static
 
-rm -r ~/public_html/
-mkdir ~/public_html
-cp -r ~/turbo-umbrella/static/ ~/public_html/static
 
-# IMPORTANT!!!
-#   Enable comented both python commented lines below when having all needed credentials.
-#   Pause crontab when editing this program
 
-#source mezzanine.env/bin/activate    #NOT USING MEZZANINE WITH THIS BRANCH!
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
-python3 ~/turbo-umbrella/processing/covid-API.py
+/usr/bin/python3 $DIR/processing/covid-API.py
+sleep 2
 
-python3 ~/turbo-umbrella/processing/request_you.py
-python3 ~/turbo-umbrella/processing/request_you_live.py
-python3 ~/turbo-umbrella/processing/covid-API-graph.py
+/usr/bin/python3 $DIR/processing/request_you.py
+sleep 2
+/usr/bin/python3 $DIR/processing/request_you_live.py
+sleep 2
+/usr/bin/python3 $DIR/processing/covid-API-graph.py
+sleep 2
 
-python3 ~/turbo-umbrella/processing/content_updater.py
-python3 ~/turbo-umbrella/processing/content_updater_live.py
-python3 ~/turbo-umbrella/processing/imgbb_upload.py
+/usr/bin/python3 $DIR/processing/content_updater.py
+sleep 2
+/usr/bin/python3 $DIR/processing/content_updater_live.py
+sleep 2
+/usr/bin/python3 $DIR/processing/imgbb_upload.py
+sleep 2
 
 # Programs that require Youtube API wont work if Youtube's API quota limit for requests has been reached
 

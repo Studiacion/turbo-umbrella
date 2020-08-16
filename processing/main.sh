@@ -1,22 +1,22 @@
 #!/bin/bash
 
-# IMPORTANT!!!
-#   Pause crontab when editing this program
 
-#source mezzanine.env/bin/activate    #NOT USING MEZZANINE WITH THIS BRANCH!
 
-/usr/bin/python3 /home/vdelaluz/git/turbo-umbrella/processing/covid-API.py
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+
+/usr/bin/python3 $DIR/covid-API.py
 sleep 2
-/usr/bin/python3 /home/vdelaluz/git/turbo-umbrella/processing/request_you.py
+/usr/bin/python3 $DIR/request_you.py
 sleep 2
-/usr/bin/python3 /home/vdelaluz/git/turbo-umbrella/processing/request_you_live.py
+/usr/bin/python3 $DIR/request_you_live.py
 sleep 2
-/usr/bin/python3 /home/vdelaluz/git/turbo-umbrella/processing/covid-API-graph.py
+/usr/bin/python3 $DIR/covid-API-graph.py
 sleep 2
-/usr/bin/python3 /home/vdelaluz/git/turbo-umbrella/processing/content_updater.py
+/usr/bin/python3 $DIR/content_updater.py
 sleep 2
-/usr/bin/python3 /home/vdelaluz/git/turbo-umbrella/processing/content_updater_live.py
+/usr/bin/python3 $DIR/content_updater_live.py
 sleep 2
-/usr/bin/python3 /home/vdelaluz/git/turbo-umbrella/processing/imgbb_upload.py
+/usr/bin/python3 $DIR/imgbb_upload.py
 
 # Programs that require Youtube API wont work if Youtube's API quota limit for requests has been reached

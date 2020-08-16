@@ -3,8 +3,9 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from datetime import datetime
 import dateutil.parser
-import getpass
-username = getpass.getuser()
+import os   
+script_path = os.path.realpath(__file__) 
+directory_path = script_path.replace("/processing/covid-API-graph.py", "")
 
 #f = open("{}_data.txt".format(country), "w")
 
@@ -47,7 +48,7 @@ for country in countries:
     fecha = []
     confirmados = []
     #f = open("/home/javier/mezzanine.env/trending/covid-API.txt", "r")
-    f = open("/home/vdelaluz/git/turbo-umbrella/data/{}_data.txt".format(country), "r")
+    f = open("{}/data/{}_data.txt".format(directory_path,country), "r")
     dia = 0
     while True: 
         line = f.readline() 
@@ -83,5 +84,9 @@ ax.annotate('Second Lockdown 15th April',
             size='100', 
             arrowprops=dict(color='white', 
                             linewidth=0.025)) 
+import configparser
+config = configparser.ConfigParser()
+config.read('{}/conf.ini'.format(directory_path))
+static_directory = config['PATHS']['PublicHTMLAplicationPart']
 
-plt.savefig('/home/vdelaluz/public_html/gicc/static/cursos/2020-II/turbo-umbrella/fig.jpg'.format(username),quality=96)
+plt.savefig('{}/fig.jpg'.format(static_directory),quality=96)
