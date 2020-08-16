@@ -95,7 +95,7 @@ f.write('''
 
                             <div class="inner">
                                 <!-- <span class="image main"><img src="images/pic13.jpg" alt="" /></span> -->
-                                <img src="fig.jpg" style="max-width:100%;" alt="2019-11-19" border=\"0\">
+                                <img src="fig.jpg" style="max-width:100%;" alt="2019-11-19" border="0">
                         </div>
 
                     <!-- Footer -->
