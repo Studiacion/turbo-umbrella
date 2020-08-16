@@ -33,8 +33,12 @@ From terminal in /home/user/: <pre><code>git clone https://github.com/Studiacion
 Enter the following in the crontab so that the application updates its data every 6 hours (enter crontab using <code>crontab -e</code>):     
 <pre><code>0 */6 * * * /bin/bash /[yourPATH]/turbo-umbrella/processing/main.sh</code></pre>
 
+### Move 'static' folder
+Move to the public path where the application is going to be. For example: <code>mv /home/user/turbo-umbrella/static/* /home/user/public_html/static/
+</code>
+
 ### Configure 'conf.ini'
-Open file in your text editor and write the public path where the proyect is going to be.   
+Open file in your text editor and write the public path where the application is going to be.   
 
 ### Place credentials
 Place the credetials file along with the others.                  
