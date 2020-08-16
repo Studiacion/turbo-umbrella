@@ -48,7 +48,8 @@ Place the credetials file along with the others.
 Enter turbo-umbrella folder and run: <pre><code>bash deploy.sh</code></pre>     
 
 
-
+![GitHub Logo](https://ibb.co/BqWM7Js)
+Format: ![Alt Text](url)
 
 		
 ## Bibliography
