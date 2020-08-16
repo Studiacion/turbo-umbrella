@@ -1,5 +1,5 @@
 # turbo-umbrella - Trending America      
-What we are aiming at is to have updated regional videos about COVID-19	news in a webpage. Also to have a graph showing the curves of new cases in each of those countries. The updates will happen everyday and the countries will be the 10 most populated countries in America.
+What we are aiming at is to have updated regional videos about COVID-19	news in a webpage. Also to have a graph showing the curves of new cases in each of those countries. The updates will happen every 6 hours and the countries will be the 10 most populated countries in America.
 
 ## Authors
 * Javier Navarro - javojavojavojavo@gmail.com
