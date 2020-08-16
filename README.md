@@ -50,7 +50,7 @@ Enter turbo-umbrella folder and run: <pre><code>bash deploy.sh</code></pre>
 ### Looks of the application
 ![](https://i.ibb.co/wMGmbq6/2020-08-16.png)
 
-### Application working here
+### Application working here:
 http://132.247.186.67/jnavarro/index.html
 		
 ## Bibliography
