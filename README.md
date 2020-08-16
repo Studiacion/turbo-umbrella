@@ -30,8 +30,8 @@ Using python 3
 From terminal in /home/user/: <pre><code>git clone https://github.com/Studiacion/turbo-umbrella.git</code></pre>
 
 ### Setup cron   
-Enter the following in the crontab (enter crontab using <code>crontab -e</code>):     
-<pre><code>0 9 * * * /bin/bash /[yourPATH]/turbo-umbrella/processing/main.sh</code></pre>
+Enter the following in the crontab so that the application updates its data every 6 hours (enter crontab using <code>crontab -e</code>):     
+<pre><code>0 */6 * * * /bin/bash /[yourPATH]/turbo-umbrella/processing/main.sh</code></pre>
 
 ### Configure 'conf.ini'
 Open file in your text editor and write the public path where the proyect is going to be.   
