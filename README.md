@@ -2,8 +2,8 @@
 What we are aiming at is to have updated regional videos about COVID-19	news in a webpage. Also to have a graph showing the curves of new cases in each of those countries. The updates will happen everyday and the countries will be the 10 most populated countries in America.
 
 ## Authors
-* Javier Navarro Espindola - javojavojavojavo@gmail.com
-* Pablo Francisco Fonseca Márquez - fonseking21@gmail.com
+* Javier Navarro - javojavojavojavo@gmail.com
+* Francisco Fonseca - fonseking21@gmail.com
 	  
 ## License 
 GNU General Public License v3.0
