@@ -1,10 +1,6 @@
-# turbo-umbrella
-Repositorio con cada uno de los proyectos durante la clase: Computo distribuido, 2020-2
-
-## Proyect
+# turbo-umbrella - America Trending  
 What we are aiming at is to have updated regional videos about COVID-19	news in a webpage. Also to have a graph showing the curves of new cases in each of those countries. The updates will happen everyday and the countries will be the 10 most populated countries in America.
-## Title
-Worldwide Trending
+
 ## Authors
 * Javier Navarro Espindola - javojavojavojavo@gmail.com
 * Pablo Francisco Fonseca Márquez - fonseking21@gmail.com
@@ -17,8 +13,7 @@ GNU General Public License v3.0
 	* Youtube Data API v3
 	* COVID-19 API (https://covid19api.com/)
 * Storage
-	* text files for graph data and youtube codes (stored locally in server)
-	* imgbb for image hosting (via imgbb API)
+	* text files for graph data, graph and youtube codes (stored locally in server)
 * Processing system
 	* Cron to schedule daily updates
 	* Bash files to manage python programs
@@ -34,12 +29,16 @@ Using python 3
 ### Clone git
 From terminal in /home/user/: <pre><code>git clone https://github.com/Studiacion/turbo-umbrella.git</code></pre>
 
+### Setup cron   
+Enter the following in the crontab (enter crontab using <code>crontab -e</code>):     
+<pre><code>0 9 * * * /bin/bash /[yourPATH]/turbo-umbrella/processing/main.sh</code></pre>
+
+### Configure 'conf.ini'
+Open file in an editor and edit the public path where the proyect is going to be.   
+
 ### Place credentials
 Place the credetials file along with the others.                  
 
-### Setup cron   
-Enter the following in the crontab (enter crontab using <code>crontab -e</code>):     
-<pre><code>0 9 * * * /bin/bash /home/[user]/turbo-umbrella/processing/main.sh</code></pre>
 
 ### Deploy website (uncomment lines in file if you don't have YouTube API prerequisites)
 Enter turbo-umbrella folder and run: <pre><code>bash deploy.sh</code></pre>     
