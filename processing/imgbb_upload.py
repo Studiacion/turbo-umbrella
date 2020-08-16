@@ -50,11 +50,7 @@ f.write('''
             <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
             <link rel="stylesheet" href="assets/css/main.css" />
             <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-            <style>
-            img {{
-                width: 100%;
-            }}
-            </style>
+
         </head>
         <body class="is-preload">
             <!-- Wrapper -->
@@ -99,7 +95,7 @@ f.write('''
 
                             <div class="inner">
                                 <!-- <span class="image main"><img src="images/pic13.jpg" alt="" /></span> -->
-                                <img src=\"fig.jpg\" alt=\"2019-11-19\" border=\"0\">
+                                <img src="fig.jpg" style="max-width:100%;" alt="2019-11-19" border=\"0\">
                         </div>
 
                     <!-- Footer -->
