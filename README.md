@@ -40,7 +40,7 @@ Open file in your text editor and write the public path where the proyect is goi
 Place the credetials file along with the others.                  
 
 
-### Deploy website (uncomment lines in file if you don't have YouTube API prerequisites)
+### Deploy website
 Enter turbo-umbrella folder and run: <pre><code>bash deploy.sh</code></pre>     
 
 
