@@ -47,8 +47,8 @@ Place the credetials file along with the others.
 ### Deploy website
 Enter turbo-umbrella folder and run: <pre><code>bash deploy.sh</code></pre>     
 
-
-![](https://ibb.co/BqWM7Js)
+### Looks of the application
+![](https://i.ibb.co/wMGmbq6/2020-08-16.png)
 
 		
 ## Bibliography
